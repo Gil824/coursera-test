@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Boxes</title>
+
+<style>
+
+*{
+	box-sizing: border-box;
+	
+}
+
+h1 {
+	margin-bottom: 15px;
+	text-align: center;
+
+}
+
+p {
+  border: 2px solid black;
+  width:  300px;
+  height: 150px;
+  margin-bottom: : 15px;
+  margin-left: 15px;
+  margin-top : 15px;
+ 
+  background-color: gray;
+  float: left;
+  
+ 
+}
+
+#box1 {
+  border: 2px solid black;
+  width:  300px;
+  height: 150px;
+  margin-bottom: : 15px;
+  margin-left: 15px;
+  margin-top : 15px;
+ 
+  background-color: gray;
+  float: left;
+  
+ 
+}
+#box2 {
+  border: 2px solid black;
+  width:  300px;
+  height: 150px;
+  margin-bottom: : 15px;
+  margin-left: 15px;
+  margin-top : 15px;
+ 
+  background-color: gray;
+  
+  
+ 
+}
+
+
+
+
+#p1 {
+	width: 100px;
+	height: 50px;
+	background-color:pink;
+	float: right;
+	margin-top: 0px;
+
+		
+}
+
+#p2 {
+	width: 100px;
+	height: 50px;
+	background-color:maroon;
+	float: right;
+	margin-top: 0px;	
+}
+#p3 {
+	width: 100px;
+	height: 50px;
+	background-color: yellow ;
+	float: right;	
+	margin-top: 0px;
+}
+
+
+
+#content1 {
+  color: black;
+}
+
+#content2 {
+	color: white;
+}
+#content3 {
+	color : black;
+}
+
+@media (min-width: 992px) {
+	
+<!	#box1{
+		width : 25%;
+		float: left;
+	}>
+.col_lg_4{
+
+ 
+	float:left
+	width:33%;
+}
+
+
+}
+@media(min-width: 768) and (max-width: 991){
+<!	#box1{
+		width: 50%;
+		float: left;
+	}>
+.col_md_6{
+
+  
+	width: 50%;
+	float: left;
+}
+}
+@media(max-width:  767 ){
+<!	#box1{
+		width: 100%;
+		float: left;
+
+	} >
+.col_sm_12{
+
+	width: 100;
+	float:left;
+}
+
+}
+
+</style>
+<head>
+
+<body>
+	<h1> Our Menu </h1>
+<div class="col_g_4 col_md_6 col_sm_12"><id=box1>
+	<p id="p1"></p>
+</div>
+
+<div class="col_g_4 col_md_6 col_sm_12"><p></p>
+	<p id="p2"></p>
+</div>
+
+
+<div class="col_g_4 col_md_6 col_sm_12"><p></p>
+	<p id="p3"></p>
+</div> 
+
+
+</body>
+</html>
